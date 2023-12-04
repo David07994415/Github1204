@@ -1,0 +1,9 @@
+.vs/                       
+packages/                  
+1113test1/bin/       
+1113test1/Content/  
+1113test1/obj/
+1113test1/Scripts/   
+*.user                     
+*.config                   
+             
