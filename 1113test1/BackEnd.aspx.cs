@@ -16,7 +16,7 @@ namespace _1113test1
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            if (!IsPostBack)
+            if (!IsPostBack)                     //TC：是否需要卡登入的確認?如果並非admin進行網址連接，就可以直接進入
             {
                 ShowDB();
             }

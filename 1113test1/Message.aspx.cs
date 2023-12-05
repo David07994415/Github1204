@@ -24,8 +24,8 @@ namespace _1113test1
             }
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
-        {
+        protected void Button1_Click(object sender, EventArgs e)     // TC：Button1語意不明顯，建議修正
+        {                                                                                                // TC：沒有用到DBHelper物件，建議可以嘗試使用
             string connectionString = ConfigurationManager.ConnectionStrings["OliverDB"].ConnectionString;
 
             SqlConnection connection = new SqlConnection(connectionString);

@@ -26,7 +26,7 @@ namespace _1113test1
 
         }
         
-        protected void Btn_01_Click(object sender, EventArgs e)
+        protected void Btn_01_Click(object sender, EventArgs e)   //TC：btn按鈕語意不明顯，建議修正
         {
             Response.Redirect("Login.aspx");
         }
